@@ -1,7 +1,7 @@
 jekyll-gulp-sass-browser-sync
 =============================
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync-Test
 
 Here's a 1.5min [screencast](http://quick.as/pvrslgx) showing what you get.
 

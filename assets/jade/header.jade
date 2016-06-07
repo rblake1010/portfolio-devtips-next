@@ -1,16 +1,14 @@
+include mixins/nav-content
+.mobile-nav
+	+nav-content
+
 header
 	.header-position
 		h1.logo Richard Blake
 
 		nav.site-nav
-			ul
-				li: a(href="#about") About
-				li: a(href="#youtube") Youtube
-				li: a(href="#mentoring") Mentoring
-				li: a(href="#articles") Articles
-				li: a(href="#vine") Vine
-				li: a(href="#design") Design
-				li: a(href="#notes") Notes
-				li: a(href="#contact") Contact
+			+nav-content
 
 		a.email-link(href="mailto:doz1010@gmail.com")  +email me
+
+		.mobile-nav-toggle: span

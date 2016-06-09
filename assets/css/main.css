@@ -536,12 +536,18 @@ section.about {
         margin-left: auto;
         max-width: 300px; } }
   section.about .home-lead {
-    padding-bottom: 180px; }
+    padding-bottom: 24px; }
     @media (max-width: 640px) {
       section.about .home-lead {
         margin-right: auto;
         margin-left: auto;
         max-width: 300px; } }
+
+section.youtube {
+  background-image: url(/assets/img/youtube-bg.gif);
+  background-position: center;
+  background-size: cover;
+  color: #fff; }
 
 .home-wrap {
   display: -webkit-box;

@@ -4,6 +4,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -363,7 +365,7 @@ body {
   background-color: #eaeaea;
   font-size: 14px;
   line-height: 1.6;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -374,6 +376,10 @@ a {
   outline: 0; }
   a:hover, a:focus {
     color: #40a6ff; }
+
+.home-lead {
+  font-size: 36px;
+  line-height: 1.1; }
 
 .home-wrap header {
   width: 135px;
@@ -510,6 +516,33 @@ a {
       -webkit-transform: translateY(0%);
               transform: translateY(0%); } }
 
+section.about {
+  background-image: url(/assets/img/about-bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  color: #3f3f42;
+  font-weight: 400; }
+  section.about h2 {
+    color: #3f3f42;
+    font-size: 60px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: -108px;
+    margin-bottom: 40px; }
+    @media (max-width: 640px) {
+      section.about h2 {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 300px; } }
+  section.about .home-lead {
+    padding-bottom: 180px; }
+    @media (max-width: 640px) {
+      section.about .home-lead {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 300px; } }
+
 .home-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -549,8 +582,7 @@ a {
 
 .col-1 {
   max-width: 300px;
-  margin: 0px 10px 20px 10px;
-  background: pink; }
+  margin: 0px 10px 20px 10px; }
   @media (max-width: 640px) {
     .col-1 {
       max-width: 100%; } }
@@ -566,3 +598,9 @@ a {
   @media (max-width: 640px) {
     .col-50 {
       width: auto; } }
+
+.push-right {
+  margin-left: 330px; }
+  @media (max-width: 640px) {
+    .push-right {
+      margin-left: 10px; } }

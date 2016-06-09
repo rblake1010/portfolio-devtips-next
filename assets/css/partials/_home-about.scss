@@ -1,0 +1,31 @@
+section.about{
+	background-image: url(/assets/img/about-bg.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	color:#3f3f42;
+	font-weight:400;
+	@media (max-width:640px){
+	}
+	h2{
+		color:#3f3f42;
+		font-size: 60px;
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 400;
+		line-height: 1;
+		margin-left:-108px;
+		margin-bottom: 40px;
+		@media (max-width:640px){
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 300px;
+		}
+	}
+	.home-lead{
+		padding-bottom: 180px;
+		@media (max-width:640px){
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 300px;
+		}
+	}
+}

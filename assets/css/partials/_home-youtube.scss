@@ -3,4 +3,33 @@ section.youtube{
 	background-position:center;
 	background-size:cover;
 	color: #fff;
+	overflow:hidden;
+	.home-cta{
+		font-size: 28px;
+		display: block;
+		background:#fff;
+		text-align: center;
+		padding:0.4em 0;
+		line-height: 1.25;
+		box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+		color:#e20a0a;
+		transition: all 0.15s ease-in-out;
+		&:hover{
+			box-shadow: 0px 5px 14px rgba(0,0,0,0.4);
+		}
+	}
+	.video-strip{
+		position: absolute;
+		margin: -50px 0;
+		top:0;
+		width: 356px;
+		height: 837px;
+		background-image: url(/assets/img/video-strip.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: 70%;
+	}
+	.col-1{
+		position:relative;
+	}
 }

@@ -380,6 +380,11 @@ a {
 .home-lead {
   font-size: 36px;
   line-height: 1.1; }
+  .home-lead.outdented {
+    text-indent: -0.75em; }
+    @media (max-width: 640px) {
+      .home-lead.outdented {
+        text-indent: 0; } }
 
 .home-wrap header {
   width: 135px;
@@ -547,7 +552,33 @@ section.youtube {
   background-image: url(/assets/img/youtube-bg.gif);
   background-position: center;
   background-size: cover;
-  color: #fff; }
+  color: #fff;
+  overflow: hidden; }
+  section.youtube .home-cta {
+    font-size: 28px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    padding: 0.4em 0;
+    line-height: 1.25;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #e20a0a;
+    -webkit-transition: all 0.15s ease-in-out;
+            transition: all 0.15s ease-in-out; }
+    section.youtube .home-cta:hover {
+      box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.4); }
+  section.youtube .video-strip {
+    position: absolute;
+    margin: -50px 0;
+    top: 0;
+    width: 356px;
+    height: 837px;
+    background-image: url(/assets/img/video-strip.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 70%; }
+  section.youtube .col-1 {
+    position: relative; }
 
 .home-wrap {
   display: -webkit-box;
